@@ -1,0 +1,24 @@
+name: Deploy to FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Deploy to Hostinger FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: 72.60.93.42
+          username: ${{ secrets.HOSTINGER_TEST_USERNAME }}
+          password: ${{ secrets.HOSTINGER_TEST_PASSWORD }}
+          port: 21
+          protocol: ftp
+          local-dir: ./
+          server-dir: public_html/
