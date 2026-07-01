@@ -54,5 +54,14 @@
     "ids": {
       "main-nav": "sidebar"
     }
+  },
+  "login-styles": {
+    "styles": {
+      "opacity": 1
+    },
+    "property": {
+      "locked": false,
+      "path": "/user/profile"
+    }
   }
 }
