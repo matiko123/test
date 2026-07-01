@@ -1,14 +1,58 @@
 {
-  "class": {
-    "card-div": "card shadow-lg p-3 h-100 position-relative",
-    "card-row-div": "card shadow border-start-primary h-100 p-3 d-flex flex-column align-items-center justify-content-center",
-    "card-initiator": "row"
+  "card-styles": {
+    "class": {
+      "card-div": "card shadow-lg p-3 h-100 position-relative",
+      "card-row-div": "card shadow border-start-primary h-100 p-3 d-flex flex-column align-items-center justify-content-center",
+      "card-initiator": "row"
+    },
+    "styles": {
+      "pf-s": "list-unstyled menu-categories"
+    },
+    "property": {
+      "locked": false,
+      "teleport": "breadcrumb"
+    }
   },
-  "styles": {
-    "pf-s": "list-unstyled menu-categories"
+  "header-styles": {
+    "class": "menu single-menu",
+    "style": {
+      "opacity": 1
+    }
   },
-  "property": {
-    "locked": false,
-    "teleport": "breadcrumb"
+  "sidebar-styles": {
+    "class": {
+      "pf-s": "list-unstyled menu-categories",
+      "main-li": "menu",
+      "main-li-router": "dropdown-toggle main-pill bg-white",
+      "child-li": "collapse submenu list-unstyled",
+      "sub-child-li": "collapse list-unstyled sub-submenu px-2",
+      "main-class": "sidebar-wrapper sidebar-theme sidebar-collapsed"
+    },
+    "styles": {
+      "pf-s": {
+        "opacity": 1
+      },
+      "child-router-link": {
+        "color": "black !important",
+        "border-radius": "15px",
+        "border-bottom": "1px solid black",
+        "background-color": "#d5deeb",
+        "margin": "35px"
+      },
+      "sub-child-router-link": {
+        "color": "black !important",
+        "border-radius": "15px",
+        "border-bottom": "1px solid #696969",
+        "background-color": "#cccfcd"
+      }
+    },
+    "property": {
+      "child-li-db-p": "#accordionExample",
+      "main-router-link-db-target": "menu-",
+      "locked": false
+    },
+    "ids": {
+      "main-nav": "sidebar"
+    }
   }
 }
