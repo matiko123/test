@@ -8,7 +8,7 @@
     "pf-s": "list-unstyled menu-categories"
   },
   "property": {
-    "locked": true,
+    "locked": false,
     "teleport": "breadcrumb"
   }
 }
