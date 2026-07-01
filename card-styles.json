@@ -1,0 +1,14 @@
+{
+  "class": {
+    "card-div": "card shadow-lg p-3 h-100 position-relative",
+    "card-row-div": "card shadow border-start-primary h-100 p-3 d-flex flex-column align-items-center justify-content-center",
+    "card-initiator": "row"
+  },
+  "styles": {
+    "pf-s": "list-unstyled menu-categories"
+  },
+  "property": {
+    "locked": false,
+    "teleport": "breadcrumb"
+  }
+}
